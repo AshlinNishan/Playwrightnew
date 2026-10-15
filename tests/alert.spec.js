@@ -16,3 +16,9 @@ test('Alert Handling', async({page})=> {
 
     console.log('The Prompt Alert Message is : ', 'promptAlertMessage.textContent()')
 })
+
+test ('web check' , async ({})=>{
+    await page.goto('https://www.myntra.com/')
+}
+
+)
